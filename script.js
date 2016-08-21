@@ -13,7 +13,8 @@ var yourLon = 0;
 	var url = "http://api.openweathermap.org/data/2.5/weather?lat="+yourLat+"&lon="+yourLon+"&APPID=8e5842b4949d739ee76a7bd5d94aaea8";
 	$.getJSON(url, function(json) {
 		// Location
-		$("#loc").html(json.name+", "+json.sys.country);
+		$("h1").html(json.name+", "+json.sys.country);
+		$("#loc").css("display", "none");
 		// Temperature
 		var tempC = Math.floor(json.main.temp - 273);
 		var tempF = Math.floor((tempC * 1.8) + 32);

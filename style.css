@@ -12,13 +12,14 @@ html {
 }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Gruppo', georgia;
   color: #663300;
   letter-spacing: 2px;
 }
 
 p {
   text-align: center;
+  font-size: 2em;
 }
 
 p.color {
@@ -39,7 +40,6 @@ div.container {
 }
 
 h1 {
-  font-family: 'Abril Fatface', cursive;
   font-size: 3em;
   text-align: center;
   color: #663300;
@@ -48,15 +48,6 @@ h1 {
 
 /********** Small devices **********/
 @media (max-width: 767px) {
-
-  html { 
-  background: url(http://www.kellylougheed.com/images/backgrounds/barometer-sm.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: #ffffff;
-}
 
   div.container {
     width: 80%;
