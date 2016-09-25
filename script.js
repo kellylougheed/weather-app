@@ -6,8 +6,8 @@ var yourLon = 0;
     	async: false,
     	dataType: 'json',
     	success: function(json) {
-			yourLat = json.lat;
-			yourLon = json.lon;
+				yourLat = json.lat;
+				yourLon = json.lon;
     	}
     });
 	var url = "http://api.openweathermap.org/data/2.5/weather?lat="+yourLat+"&lon="+yourLon+"&APPID=8e5842b4949d739ee76a7bd5d94aaea8";
