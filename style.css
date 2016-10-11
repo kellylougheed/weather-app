@@ -45,6 +45,35 @@ h1 {
   color: #663300;
   margin: 0px;
 }
+/********** Footer **********/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 20px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 3px 0 0 0;
+  /* Set the fixed height of the footer here */
+  height: 20px;
+  background-color: rgb(69,20,13);
+  color: rgb(234,202,88);
+  text-align: center;
+  font-size: .7em;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(234,202,88);
+}
+.footer a:hover {
+  color: white;
+}
 
 /********** Small devices **********/
 @media (max-width: 767px) {
