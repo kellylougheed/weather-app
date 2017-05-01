@@ -4,6 +4,8 @@
 
 The weather app detects the user's location and reports the corresponding weather.
 
+<img src="http://www.kellylougheed.com/images/projects/weatherapp.png"/>
+
 <h2>Features:</h2>
 
 <ul>
